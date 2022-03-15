@@ -16,7 +16,7 @@ Widget defaultFloatButton({
     child: Text(
       text,
       style: TextStyle(
-        fontSize: 18,
+        fontSize: 22,
         color: Colors.white,
       ),
     ),
