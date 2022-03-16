@@ -11,6 +11,9 @@ class AppCubit extends Cubit<AppStates> {
 
   List<Map> userData = [];
 
+  int currentIndex = 0;
+
+
   void createDatabase() {
     openDatabase('bankSystem.db', version: 1, onCreate: (database, version) {
       print('create database');
